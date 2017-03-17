@@ -1,0 +1,29 @@
+{
+  "name": "csgo-config-compiler",
+  "version": "2.0.0",
+  "description": "A config compiler for CS:GO, replaces exec references with the files to produce a single output file.",
+  "main": "compiler.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/itotallyrock/CSGOConfigCompiler.git"
+  },
+  "keywords": [
+    "csgo",
+    "config",
+    "compiler",
+    "exec"
+  ],
+  "author": "Jeffrey Meyer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/itotallyrock/CSGOConfigCompiler/issues"
+  },
+  "homepage": "https://github.com/itotallyrock/CSGOConfigCompiler#readme",
+  "dependencies": {
+    "fs-promise": "^2.0.0",
+    "github": "^9.2.0"
+  }
+}
